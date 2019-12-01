@@ -1,0 +1,23 @@
+label {
+  font-style: oblique;
+  font-size: 125%;}
+#tabla0 {
+   width: 30%;}
+legend {    text-decoration: underline;
+			font-size: 125%;}   
+fielset {
+	border: 2px solid silver;      
+	}
+#tabla { background-color: #64B8D7;}
+#tabla2 {background-color: #E79D52;}
+#tabla3 {background-color: #31C95C;}
+#tabla4 {background-color: #D84141;}
+#tabla5 {background-color: #D1D1D1;
+}
+p {font-size: 125%;
+}
+input {height: 30px;
+}
+h1 {color: green;
+ margin-left: 280px;}
+#nacionalitat {font-style: oblique;}

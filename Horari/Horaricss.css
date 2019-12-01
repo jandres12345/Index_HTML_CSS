@@ -1,0 +1,18 @@
+table {
+   width: 100%;
+   border-collapse: collapse;
+   width: 60%;
+}
+td {
+   text-align: lefht;
+   vertical-align: top;
+   border: 1px solid #000;
+   font: 70% arial;
+}
+th {
+   background: #eee;
+      height: 30px;
+   border: 1px solid #000;
+   font: 90% arial;
+}
+p {  text-align: right;}

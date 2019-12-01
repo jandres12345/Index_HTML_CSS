@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+	<title>Formulari exemple</title>
+	<link rel="stylesheet" type="text/css" href="formularicss.css">
+</head>
+<body>
+  <form>
+  <h1>Curriculum</h1>
+  <fieldset id="tabla0">
+  <br>
+ <fieldset id="tabla">
+ <legend>Informaci&oacute;n Basica</legend>
+	<div>
+	<label for="nombre">Nombre</label><br>
+		<input type="text" name="nombre" placeholder="Tu nombre" size="90">
+	</div>
+	<div>
+	<label for="Altura en centimetros">Altura en centimetros</label><br>
+		<input type="number" name="altura" min="50" max="250">
+	</div>
+	<div>
+	<label for="email">email</label><br>
+		<input type="email" name="correo electronico" placeholder="tuemail@dominio.com">
+	</div>
+	<div>
+	<label for="Fecha de nacimiento">Fecha de nacimiento</label><br>
+		<input type="date" name="calendari"></p>
+	</div>
+	</fieldset>
+	<br>
+    <fieldset id="tabla2">
+	<legend>Nacionalitat</legend>
+	<p id="nacionalitat">
+		<input type="radio" name="nacionalidad">Espa&ntilde;ola
+		<input type="radio" name="nacionalidad">Comunitario(UE) 
+		<input type="radio" name="nacionalidad">No comunitario
+	</p>
+	</fieldset>
+	<br>
+    <fieldset id="tabla3">
+	<legend>Estudios</legend>
+	<select name="educacion">
+		<option>GM</option>
+		<option>GS</option>
+		<option>ESO</option>
+		<option>Univ</option>
+		<option>No Estudios</option>
+	</select>
+	</fieldset>
+	<br>
+    <fieldset id="tabla4">
+	<legend>Idiomas</legend>	
+	<p><input type="checkbox" name="catalan">Catal&aacute;n 
+	   <input type="checkbox" name="castellano">Castellano 
+	   <input type="checkbox" name="ingles">Ingles 
+	   <input type="checkbox" name="chino">Chino 
+	</p>
+	</fieldset>
+	<br>
+    <fieldset id="tabla5">
+	<p><input type="submit" name="Enviar" value="Enviar"></a> 
+	<input type="button" name="Cancelar"  value="Cancelar"></p>
+	</fieldset>
+	</fieldset>
+	</form>
+	
+</body>
+</html>

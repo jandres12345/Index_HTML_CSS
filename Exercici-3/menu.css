@@ -1,0 +1,25 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #430119;
+}
+
+li a {
+  font: 120% arial;
+  text-align: center;
+  display: block;
+  color: #FDFEFE;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+  background-color: #D4004D ;
+  color: yellow;
+}
+li a:visited {
+  color: #E00052;	
+}
